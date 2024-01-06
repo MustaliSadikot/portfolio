@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  @apply w-full h-full
+}
+
+html{
+  @apply w-full h-full
+  scroll-smooth
+}
+
+body{
+  @apply w-full h-full overflow-x-hidden
+}
+
