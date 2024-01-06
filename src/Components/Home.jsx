@@ -15,7 +15,7 @@ function Home() {
           </div>
 
           <div className='mt-2' data-aos="fade-up">
-              <a href="#"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100'>Download CV</button></a>
+              <a href="Mustali Sadikot CV.pdf"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100'>Download CV</button></a>
 
             <a href="#contact"><button className='border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-lg px-4 py-2 md:mx-4 ms-3 transition-all ease-in-out duration-500'>Contact Me</button></a>
           </div>
