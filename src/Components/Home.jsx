@@ -10,12 +10,14 @@ function Home() {
           <h1 className='lg:text-4xl text-2xl mt-1'>Web Developer.</h1>
 
           <div className='flex md:w-[550px]' data-aos="fade-up">
-            {/* <h1 className='my-3'>I am a Web Developer. I live in Gujarat. If you are interested in working with me, you can contact me to hire me.</h1> */}
             <h1 className='my-3'>My passion for web development shines through in my portfolio. It's a showcase of self-driven projects, highlighting my commitment to mastering this craft through continuous learning.</h1>
           </div>
 
           <div className='mt-2' data-aos="fade-up">
-              <a href="Mustali Sadikot CV.pdf"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100'>Download CV</button></a>
+              <a href="Mustali Sadikot CV.pdf"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100 lg:inline-block hidden'>Download CV</button></a>
+
+          {/* Moblie */}
+              <a href="https://drive.google.com/file/d/1nv1pn7nz3zXAUwWG7vryrafn3pMIVO9g/view?usp=sharing"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100 lg:hidden inline-block'>Download CV</button></a>
 
             <a href="#contact"><button className='border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-lg px-4 py-2 md:mx-4 ms-3 transition-all ease-in-out duration-500'>Contact Me</button></a>
           </div>
