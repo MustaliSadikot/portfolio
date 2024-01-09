@@ -28,14 +28,17 @@ function Modal({close,isshow,title,description}) {
         <div className='flex justify-end gap-4 mt-5'>
             <a href={`${title=="Air Visual" ? projects.AirVisual.view : ""} 
                       ${title=="Textutils" ? projects.Textutils.view : ""}
-                      ${title=="Movie Finder" ? projects.MovieFinder.view : ""}`}>
+                      ${title=="Movie Finder" ? projects.MovieFinder.view : ""}
+                      `} target="_blank">
                         
-              <button type="button" className='bg-black text-white px-3 py-1 rounded md:text-base text-sm hover:text-black hover:bg-white transition-all ease-in-out duration-200 hover:shadow-black'>View</button>
+              {title!="News App" && <button type="button" className='bg-black text-white px-3 py-1 rounded md:text-base text-sm hover:text-black hover:bg-white transition-all ease-in-out duration-200 hover:shadow-black'>View</button>}
             </a>
 
-            <a href={`${title=="Air Visual" ? projects.AirVisual.source : ""}
+            <a href={`${title=="News App" ? projects.NewsApp.source : ""}
+                      ${title=="Air Visual" ? projects.AirVisual.source : ""}
                       ${title=="Textutils" ? projects.Textutils.source : ""}
-                      ${title=="Movie Finder" ? projects.MovieFinder.source : ""}`}>
+                      ${title=="Movie Finder" ? projects.MovieFinder.source : ""} 
+                      `} target="_blank">
                         
               <button type="button" className='bg-black text-white px-3 py-1 rounded md:text-base text-sm hover:text-black hover:bg-white transition-all ease-in-out duration-200 hover:shadow-black'>Source Code</button>
             </a>

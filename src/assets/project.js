@@ -2,6 +2,7 @@ export const projects = {
     NewsApp : {
         title:"News App",
         description:"The primary objective of the Newsapp is to offer users a convenient platform for accessing diverse and up-to-date news content from various reliable sources. The app aims to deliver an intuitive and engaging interface, catering to the preferences and interests of a wide range of users.",
+        source : "https://github.com/MustaliSadikot/newsapp",
         image : "Images/NewsApp.png",
         video : "Videos/NewsApp.mp4"
     },
