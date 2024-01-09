@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
 import Shortnavbar from './Shortnavbar';
+import { IoClose } from "react-icons/io5";
 
 function Navbar() {
 
@@ -35,8 +36,11 @@ function Navbar() {
           
         </div>
 
-        <div className='flex sm:hidden mx-4 text-2xl absolute right-0'>
-          <GiHamburgerMenu onClick={()=>{setshow(!show)}} className='hover:cursor-pointer' />
+        <div className='flex sm:hidden mx-4 text-2xl absolute right-0 '>
+          {!show?<GiHamburgerMenu onClick={()=>{setshow(!show)}} 
+          className='hover:cursor-pointer' />:
+          <IoClose onClick={()=>{setshow(!show)}} 
+          className='hover:cursor-pointer text-3xl'/>}
         </div>
       </div>
 
