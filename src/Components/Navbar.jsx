@@ -36,7 +36,7 @@ function Navbar() {
         </div>
 
         <div className='flex sm:hidden mx-4 text-2xl absolute right-0'>
-          <GiHamburgerMenu onClick={()=>{setshow(!show)}} />
+          <GiHamburgerMenu onClick={()=>{setshow(!show)}} className='hover:cursor-pointer' />
         </div>
       </div>
 

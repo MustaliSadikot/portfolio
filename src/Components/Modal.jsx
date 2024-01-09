@@ -9,7 +9,7 @@ function Modal({close,isshow,title,description}) {
     
   return (
 <>
-    <div className={`fixed top-0 w-full h-full flex justify-center items-center ${isshow ? "scale-100" : "scale-0"} transition-all ease-in-out duration-[400ms] origin-top`}>
+    <div className={`fixed top-0 w-full h-full flex justify-center items-center ${isshow ? "scale-100" : "scale-0"} transition-all ease-in-out duration-[300ms] origin-center`}>
         <div className={`bg-sky-600 text-white w-[600px] max-w-[90vw] p-1 px-2 py-2 shadow-2xl shadow-black rounded-lg mt-14 relative`}>
 
             <IoClose className='text-xl hover:cursor-pointer hover:text-red-500 absolute right-2' onClick={()=>{close(!isshow)}}/>
