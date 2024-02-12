@@ -14,10 +14,10 @@ function Home() {
           </div>
 
           <div className='mt-2' data-aos="fade-up">
-              <a href="Mustali Sadikot CV.pdf"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100 lg:inline-block hidden'>Download CV</button></a>
+              <a href="Mustali_Sadikot_CV.pdf"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100 lg:inline-block hidden'>Download CV</button></a>
 
           {/* Moblie */}
-              <a href="https://drive.google.com/file/d/1nv1pn7nz3zXAUwWG7vryrafn3pMIVO9g/view?usp=sharing"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100 lg:hidden inline-block'>Download CV</button></a>
+              <a href="https://drive.google.com/file/d/1I45oM9ZLLhAzHBjPZLOZ8x8RBJvolimx/view?usp=sharing"><button className='border-2 border-blue-600 bg-blue-600 text-white  hover:text-blue-600 font-semibold rounded-lg px-4 py-2 transition-all ease-in-out duration-500 hover:bg-blue-100 lg:hidden inline-block'>Download CV</button></a>
 
             <a href="#contact"><button className='border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-lg px-4 py-2 md:mx-4 ms-3 transition-all ease-in-out duration-500'>Contact Me</button></a>
           </div>
