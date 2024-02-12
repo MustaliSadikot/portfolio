@@ -10,7 +10,7 @@ export const skills = {
     },
     tailwindcss : {
         heading : "Tailwind CSS",
-        logo : "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        logo : "//cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
     },
     bootstrap : {
         heading : "Bootstrap",
